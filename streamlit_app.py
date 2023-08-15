@@ -9,7 +9,7 @@ def clear_form():
     st.session_state["url_input"] = ""
 
 
-st.set_page_config("Reddit Clone", layout="wide",
+st.set_page_config("Reddit Clone", layout="centered",
                    page_icon="https://www.redditstatic.com/shreddit/assets/favicon/120x120.png")
 
 st.header("Reddit Clone")
